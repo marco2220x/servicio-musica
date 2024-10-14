@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Previous track button -->
+    <ImageButton
+        android:id="@+id/btnPrevious"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_previous"
+        android:contentDescription="Previous track"
+        android:layout_margin="8dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <!-- Play/Pause button -->
+    <ImageButton
+        android:id="@+id/btnPlayPause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_play"
+        android:contentDescription="Play/Pause"
+        android:layout_margin="8dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <!-- Next track button -->
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_next"
+        android:contentDescription="Next track"
+        android:layout_margin="8dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <!-- Stop button -->
+    <ImageButton
+        android:id="@+id/btnStop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_stop"
+        android:contentDescription="Stop"
+        android:layout_margin="8dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>
